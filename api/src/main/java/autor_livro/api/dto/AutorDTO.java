@@ -11,5 +11,4 @@ public class AutorDTO {
 
     @NotBlank
     private String nome;
-
 }

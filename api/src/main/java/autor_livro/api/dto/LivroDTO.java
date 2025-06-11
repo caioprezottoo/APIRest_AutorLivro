@@ -14,5 +14,4 @@ public class LivroDTO {
 
     @NotNull
     private Long autorId;
-
 }
