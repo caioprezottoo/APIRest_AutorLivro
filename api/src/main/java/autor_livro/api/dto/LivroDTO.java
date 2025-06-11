@@ -15,5 +15,4 @@ public class LivroDTO {
     @NotNull
     private Long autorId;
 
-    // Getters e Setters
 }
