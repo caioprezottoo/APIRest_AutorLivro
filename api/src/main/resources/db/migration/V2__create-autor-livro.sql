@@ -1,0 +1,10 @@
+CREATE TABLE autor (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE livro (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    autor_id BIGINT,
+    CONSTRAINT fk_livro_autor FOREIGN KEY (autor_id) REFERENCES autor(id)
+);
