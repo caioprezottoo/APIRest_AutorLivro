@@ -60,8 +60,7 @@ src/
   **Request body:**
   ```json
   {
-    "nome": "Miguel de Cervantes",
-    "nacionalidade": "Spanish"
+    "nome": "Caio Prezotto",
   }
   ```
 
